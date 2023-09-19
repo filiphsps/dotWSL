@@ -66,7 +66,8 @@ eval "$(starship init zsh)"
 # User configuration
 export EDITOR=vim
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share"
-export PAGER='cat'
+export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
+# FIXME: Only do this on debian-based ENVSs
 alias apt='\nala'
 alias dapt='\apt'
 alias sudo='sudo '
