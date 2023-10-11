@@ -56,7 +56,7 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions adb autoenv nvm)
+plugins=(git zsh-autosuggestions nvm)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -71,9 +71,6 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 alias apt='\nala'
 alias dapt='\apt'
 alias sudo='sudo '
-
-# Plugins-config
-source ~/.autoenv/activate.sh
 
 zstyle ':omz:plugins:nvm' lazy yes
 zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript bun
