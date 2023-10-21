@@ -1,18 +1,1 @@
-*
-/scripts/**
 
-# git
-!.gitconfig
-!.gitignore
-!.gitattributes
-
-# zsh/shell
-!.zshrc
-!/.config/
-!/.config/starship.toml
-
-# setup scripts
-!install-dotfiles.sh
-!/scripts/
-!/scripts/common.sh
-!/scripts/**/*

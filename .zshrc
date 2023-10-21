@@ -1,5 +1,5 @@
 # Path
-source .profile
+#source .profile
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
@@ -56,21 +56,21 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions nvm)
+plugins=(git nvm)
 
 source $ZSH/oh-my-zsh.sh
 
 # Star Ship
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 # User configuration
 export EDITOR=vim
 export XDG_DATA_DIRS="$XDG_DATA_DIRS:$HOME/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share"
 export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 # FIXME: Only do this on debian-based ENVSs
-alias apt='\nala'
-alias dapt='\apt'
-alias sudo='sudo '
+# alias apt='\nala'
+# alias dapt='\apt'
+# alias sudo='sudo '
 
 zstyle ':omz:plugins:nvm' lazy yes
 zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript bun
