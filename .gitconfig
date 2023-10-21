@@ -23,19 +23,12 @@
 	ui = auto
 
 [user]
-	signingkey = DD0C889CA2EDCDDE
+#	signingkey = DD0C889CA2EDCDDE
 	name = Filiph Siitam Sandström
 	email = filiph@nordcom.io
 
 [commit]
-	gpgsign = true
+#	gpgsign = true
 
 [pull]
 	rebase = true
-
-[credential "https://github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = 
-	helper = !/usr/bin/gh auth git-credential
