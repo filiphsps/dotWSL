@@ -1,34 +1,26 @@
 [apply]
 	whitespace = fix
-
 [core]
-#	excludesfile = ~/.gitignore-global
 	attributesfile = ~/.gitattributes
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 	trustctime = false
 	editor = vim
 	autocrlf = input
 	eol = lf
-
 [init]
 	defaultBranch = master
-
 [diff]
 	renames = copies
-
 [help]
 	autocorrect = 1
-
 [color]
 	ui = auto
-
 [user]
-#	signingkey = DD0C889CA2EDCDDE
 	name = Filiph Siitam Sandström
 	email = filiph@nordcom.io
-
 [commit]
 #	gpgsign = true
-
 [pull]
 	rebase = true
+[push]
+	autoSetupRemote = true
