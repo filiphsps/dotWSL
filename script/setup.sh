@@ -2,7 +2,7 @@
 
 set -eu
 
-. ./common.sh
+. $PWD/script/common.sh
 
 check_for_bash
 check_os
@@ -13,21 +13,21 @@ fi
 
 case "$OS" in
     "macOS")
-        ./scripts/install/install-macos.sh
+        . $PWD/script/install/install-macos.sh
     ;;
-    "Debian Linux")
-        ./scripts/install/install-debian.sh
+    "Debian (Linux)")
+        . $PWD/script/install/install-debian.sh
     ;;
-    "Debian WSL")
-        ./scripts/install/install-debian.sh
+    "Debian (WSL)")
+        . $PWD/script/install/install-debian.sh
     ;;
-    "Ubuntu Linux")
-        ./scripts/install/install-ubuntu.sh
+    "Ubuntu (Linux)")
+        . $PWD/script/install/install-ubuntu.sh
     ;;
-    "Ubuntu WSL")
-        ./scripts/install/install-ubuntu.sh
+    "Ubuntu (WSL)")
+        . $PWD/script/install/install-ubuntu.sh
     ;;
-    "Alpine Linux")
-        ./scripts/install/install-alpine.sh
+    "Alpine (Linux)")
+        . $PWD/script/install/install-alpine.sh
     ;;
 esac

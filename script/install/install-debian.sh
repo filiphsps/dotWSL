@@ -1,5 +1,5 @@
 #!/bin/sh
 
-. ./scripts/install/components/dotfiles.sh
+. $PWD/script/install/components/dotfiles.sh
 
 todo "Debian"

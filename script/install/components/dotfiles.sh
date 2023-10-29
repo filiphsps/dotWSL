@@ -7,7 +7,5 @@ else
     echo "NO"
 
     # TODO: Create a proper index to keep track of all dotfiles.
-    #cp .zsh .gitconfig .gitattributes $HOME
-
-    todo "Copy dotfiles"
+    cp $PWD/.zshrc $PWD/.gitconfig $PWD/.gitattributes $PWD/.gitignore $HOME
 fi
