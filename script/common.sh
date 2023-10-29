@@ -42,7 +42,7 @@ check_os() {
             esac
         ;;
     esac
-    echo "$OS"
+    echo "\"$OS\""
 }
 
 todo() {
