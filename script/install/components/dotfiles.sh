@@ -8,6 +8,7 @@ else
 
     printf "Copying dotfiles...\t\t"
     # TODO: Create a proper index to keep track of all dotfiles.
-    cp $PWD/.zshrc $PWD/.gitconfig $PWD/.gitattributes $PWD/.gitignore $HOME
+    cp -r $PWD/.config $PWD/.vim
+    # cp $PWD/.vimrc $PWD/.zshrc $PWD/.gitconfig $PWD/.gitattributes $PWD/.gitignore $HOME
     echo "DONE"
 fi
