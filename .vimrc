@@ -1,4 +1,5 @@
 set nocompatible
+set mouse=a
 filetype on
 filetype plugin on
 filetype indent on
