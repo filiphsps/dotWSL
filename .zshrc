@@ -77,3 +77,5 @@ zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript bun
 zstyle ':omz:plugins:nvm' autoload yes
 zstyle ':omz:plugins:nvm' silent-autoload yes
 
+# zoxide
+eval "$(zoxide init --cmd cd zsh)"
