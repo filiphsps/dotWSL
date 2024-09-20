@@ -1,0 +1,2 @@
+# see https://stackoverflow.com/a/57620087/3142553
+export GPG_TTY=$(tty)
