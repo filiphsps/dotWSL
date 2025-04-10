@@ -4,7 +4,7 @@
 	attributesfile = ~/.gitattributes
 	whitespace = space-before-tab,-indent-with-non-tab,trailing-space
 	trustctime = false
-	editor = vim
+	editor = code --wait
 	autocrlf = input
 	eol = lf
 [init]
@@ -17,9 +17,12 @@
 	ui = auto
 [user]
 	name = Filiph Siitam Sandström
-	email = filiph@nordcom.io
+	email = filfat@hotmail.se
+	signingkey = A2EDCDDE
 [commit]
-#	gpgsign = true
+	gpgsign = true
+[tag]
+	gpgsign = true
 [pull]
 	rebase = true
 [push]
