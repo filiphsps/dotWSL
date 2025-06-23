@@ -72,6 +72,11 @@ export ZSH_COMPDUMP=$ZSH/cache/.zcompdump-$HOST
 # alias dapt='\apt'
 # alias sudo='sudo '
 
+# aliases
+alias pi="pnpm install"
+alias lg="lazygit"
+alias vim="nvim"
+
 zstyle ':omz:plugins:nvm' lazy yes
 zstyle ':omz:plugins:nvm' lazy-cmd eslint prettier typescript bun
 zstyle ':omz:plugins:nvm' autoload yes
